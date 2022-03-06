@@ -1,0 +1,23 @@
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+    "name" : "Samsung Galaxy A20",
+    "price" : 20000000,
+    "stock" : 10
+}
+
+###
+
+PATCH  http://localhost:8000/users/62230f8ffd9d6550784ab532
+Content-Type: application/json
+
+{
+    "name" : "Laptop Asus",
+    "price" : 8000000,
+    "stock" : 20
+}
+
+###
+DELETE http://localhost:8000/users/6222fdc43d6647abce6c70e4
+
